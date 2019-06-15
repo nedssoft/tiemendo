@@ -1,6 +1,7 @@
 
 import React from 'react'
-import {Footer, Ul, StyledLink, FacebookIcon, TwitterIcon, LinkedinIcon } from './Styles'
+import {Footer, Ul, StyledLink} from './Styles'
+import {  FacebookIcon, TwitterIcon, LinkedinIcon } from '../styled/reusables'
 
 export default function footer() {
   return (

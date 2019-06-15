@@ -1,4 +1,5 @@
 import styled, { css } from "styled-components";
+import { FaFacebookSquare, FaTwitterSquare, FaLinkedin, FaGithubSquare } from "react-icons/fa";
 import { primary_color, black_color, gray_color, white_color } from "./variables";
 
 export const transition = css`
@@ -51,6 +52,42 @@ export const H2 = styled.h2`
       else if (props.color && props.color === white_color ) return gray_color;
       else return primary_color;
     }};
+    ${transition};
+  }
+`;
+
+const IconStyle = css`
+  font-size: 6rem;
+  color: ${gray_color};
+  padding: 0.8rem;
+  ${transition};
+`;
+
+export const FacebookIcon = styled(FaFacebookSquare)`
+  ${IconStyle};
+  &:hover {
+    color     : #3B579D;
+    ${transition};
+  }
+`
+export const TwitterIcon = styled(FaTwitterSquare)`
+  ${IconStyle};
+  &:hover { 
+    color     : #29AAE1;
+    ${transition};
+  }
+`
+export const LinkedinIcon = styled(FaLinkedin)`
+  ${IconStyle};
+  &:hover {
+    color     : #0374B3;
+    ${transition};
+  }
+`
+export const GitHubIcon = styled(FaGithubSquare)`
+  ${IconStyle};
+  &:hover {
+    color: #161515;
     ${transition};
   }
 `;
