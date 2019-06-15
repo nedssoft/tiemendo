@@ -15,7 +15,9 @@ export const Section = styled.section`
 `;
 export const Container = styled.div`
   width: 70%;
-  ${mobile_width};
+  @media (max-width: 500px) {
+    width: 100%;
+  }
 `;
 export const Article = styled.article`
   display: flex;
@@ -39,6 +41,7 @@ export const Article = styled.article`
       }
     }}
   @media (max-width: 500px) {
+    width: 100%;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
