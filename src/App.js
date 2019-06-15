@@ -2,6 +2,7 @@ import React from "react";
 import GlobalStyle, {Container} from "./components/styled/GlobalStyle";
 import Navigation from './components/navigation/Navigation'
 import Carousel from './components/carousel/Carousel'
+import HomePage from './components/home/Mission'
 function App() {
   return (
     <React.Fragment>
@@ -9,6 +10,7 @@ function App() {
       <Container>
         <Navigation />
         <Carousel />
+        <HomePage />
       </Container>
     </React.Fragment>
   );

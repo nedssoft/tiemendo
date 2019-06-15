@@ -1,15 +1,12 @@
 import styled from "styled-components";
-import {
-  white_color,
-  primary_color,
-} from "../styled/variables";
+import { white_color, primary_color } from "../styled/variables";
 
 export const Container = styled.div`
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-  max-height: 500px;
+  max-height: 100vh;
   overflow: hidden;
   position: relative;
   @media (max-width: 500px) {
@@ -48,7 +45,7 @@ export const Next = styled(ControlBtn)`
 `;
 
 export const CarouselItem = styled.div`
-height: 100%;
+  height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -79,7 +76,7 @@ export const CarouselText = styled.div`
   h1 {
     margin-bottom: 4rem;
     color: ${white_color};
-    font-size: 4rem;
+    font-size: 4.5rem;
     text-transform: uppercase;
     font-weight: 600;
     color: #fff;
@@ -87,7 +84,7 @@ export const CarouselText = styled.div`
     background: rgba(100, 100, 100, 0.2);
   }
   p {
-    font-size: 2rem;
+    font-size: 2.5rem;
     line-height: 1.2;
     font-weight: 600;
     color: ${white_color};
