@@ -2,7 +2,7 @@ import React from "react";
 import { Route } from 'react-router-dom'
 import GlobalStyle, {Container} from "./components/styled/GlobalStyle";
 import Navigation from './components/navigation/Navigation'
-import Footer from './components/footer/Footer'
+import Footer from './components/footer/footer'
 import LandingPage from './container/Landing'
 import AboutPage from './components/about/About'
 
