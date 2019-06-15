@@ -2,7 +2,7 @@ import React from "react";
 import GlobalStyle, {Container} from "./components/styled/GlobalStyle";
 import Navigation from './components/navigation/Navigation'
 import Carousel from './components/carousel/Carousel'
-import HomePage from './components/home/Mission'
+import HomePage from './components/home/HomePage'
 function App() {
   return (
     <React.Fragment>

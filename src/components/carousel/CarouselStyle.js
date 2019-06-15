@@ -21,9 +21,6 @@ const ControlBtn = styled.span`
   -webkit-transition: all 0.25s ease-in-out;
   transition: all 0.25s ease-in-out;
   cursor: pointer;
-  @media (max-width: 500px) {
-    display: none;
-  }
   &:hover {
     color: ${white_color};
     -webkit-transition: all 0.25s ease-in-out;

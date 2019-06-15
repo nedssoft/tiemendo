@@ -1,5 +1,13 @@
-import styled from "styled-components";
+import styled, { css} from "styled-components";
 import { white_color, gray_color, primary_color } from "../styled/variables";
+
+const transition = css`
+  -webkit-transition: all 0.25s ease;
+  -moz-transition: all 0.25s ease;
+  -ms-transition: all 0.25s ease;
+  -o-transition: all 0.25s ease;
+  transition: all 0.25s ease;
+`;
 
 export const MissionContainer = styled.section`
   display: flex;
@@ -36,7 +44,7 @@ export const Article = styled.article`
       font-size: 3.2rem;
       font-weight: bold;
       &::after {
-        content: "";
+        content: " ";
         position: absolute;
         height: 2px;
         width: 30%;
@@ -46,6 +54,7 @@ export const Article = styled.article`
       }
       &:hover {
         color: ${gray_color};
+        ${transition};
       }
     }
 `

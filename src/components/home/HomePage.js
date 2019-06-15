@@ -1,9 +1,13 @@
-import React from 'react';
+import React from 'react'
 import Mission from './Mission'
-export default function Homepage() {
+import Services from './services/Services'
+import Testimonials from './testimonials/TestImonials'
+export default function HomePage() {
   return (
     <main>
-     <Mission />
+      <Mission />
+      <Services />
+      <Testimonials />
     </main>
   )
 }

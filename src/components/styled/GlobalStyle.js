@@ -134,12 +134,15 @@ html {
 body {
   height: 100%;
   width: 100vw;
-  background: green;
   margin-top: 72px;
   font-family: "Open Sans", Calibri, sans-serif;
 }
 button, input {
   outline: none;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Dosis', sans-serif;
+  font-weight: bold;
 }
 `;
 
