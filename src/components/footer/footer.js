@@ -1,11 +1,11 @@
 
 import React from 'react'
-import {Footer, Ul, StyledLink} from './Styles'
+import {FooterContainer, Ul, StyledLink} from './Styles'
 import {  FacebookIcon, TwitterIcon, LinkedinIcon } from '../styled/reusables'
 
-export default function footer() {
+export default function Footer() {
   return (
-    <Footer>
+    <FooterContainer>
       <Ul>
         <li>
           <StyledLink to="#">
@@ -24,6 +24,6 @@ export default function footer() {
         </li>
       </Ul>
       <p>&copy; Copyright Tieme Ndo. All Rights Reserved</p>
-    </Footer>
+    </FooterContainer>
   )
 }

@@ -8,7 +8,7 @@ export const StyledLink = styled(Link)`
   text-decoration: none;
 `
 
-export const Footer = styled.footer`
+export const FooterContainer = styled.footer`
   width: 100%;
   min-height: 150px;
   background: ${black_color};
