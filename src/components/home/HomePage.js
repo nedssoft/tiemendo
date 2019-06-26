@@ -1,7 +1,8 @@
-import React from 'react'
-import Mission from './Mission'
-import Services from './services/Services'
-import Testimonials from './testimonials/TestImonials'
+import React from "react";
+import Mission from "./Mission";
+import Services from "./services/Services";
+import Testimonials from "./testimonials/TestImonials";
+
 export default function HomePage() {
   return (
     <main>
@@ -9,5 +10,5 @@ export default function HomePage() {
       <Services />
       <Testimonials />
     </main>
-  )
+  );
 }
