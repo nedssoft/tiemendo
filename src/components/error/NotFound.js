@@ -1,8 +1,8 @@
 import React from 'react'
 import 'styled-components/macro'
 import { Container, Button } from './Styles'
-
 import { Link } from 'react-router-dom'
+
 export default function NotFound() {
   return (
     <Container>
